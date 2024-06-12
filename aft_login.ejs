@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Eats</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            float: left;
+        }
+
+        nav {
+            float: right;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        #featured-food {
+            padding: 50px 0;
+        }
+
+        .food-item {
+            float: left;
+            width: calc(33.33% - 20px);
+            margin: 0 10px 20px;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .food-item img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .food-item h3 {
+            margin-top: 10px;
+        }
+
+        .food-item p {
+            margin: 10px 0;
+        }
+
+        .food-item a {
+            display: inline-block;
+            background: #333;
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Delicious Eats</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="featured-food">
+        <div class="container">
+            <h2>Featured Food</h2>
+            <div class="food-item">
+                <img src="https://kauveryhospital.com/blog/wp-content/uploads/2021/04/pizza-5179939_960_720.jpg" alt="Pizza">
+                <h3>Pizza</h3>
+                <p>Delicious cheesy pizza with your favorite toppings!</p>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="food-item">
+                <img src="https://www.foodandwine.com/thmb/DI29Houjc_ccAtFKly0BbVsusHc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/crispy-comte-cheesburgers-FT-RECIPE0921-6166c6552b7148e8a8561f7765ddf20b.jpg" alt="Burger">
+                <h3>Burger</h3>
+                <p>Juicy beef burger with fresh vegetables and sauce.</p>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="food-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcKg9KfUIULS3oJcZqNJj84qPx5Un5Hri0UQ&usqp=CAU" alt="Pasta">
+                <h3>Pasta</h3>
+                <p>Authentic Italian pasta with rich tomato sauce.</p>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="food-item">
+                <img src="https://www.heinens.com/content/uploads/2023/06/Tuna-Sushi-Rolls-800x550-1.jpg" alt="Sushi">
+                <h3>Sushi</h3>
+                <p>Delightful sushi rolls with fresh fish and vegetables.</p>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="food-item">
+                <img src="https://realfood.tesco.com/media/images/1400x919Closeupfood754V1-0b21b114-081d-404a-a96d-b21790c6564b-0-1400x919.jpg" alt="Steak">
+                <h3>Steak</h3>
+                <p>Juicy grilled steak served with mashed potatoes.</p>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="food-item">
+                <img src="https://www.eatingwell.com/thmb/rmLlvSjdnJCCy_7iqqj3x7XS72c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chopped-power-salad-with-chicken-0ad93f1931524a679c0f8854d74e6e57.jpg" alt="Salad">
+                <h3>Salad</h3>
+                <p>Fresh salad with mixed greens and balsamic dressing.</p>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="food-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA8m7D4L-IGW-anhPG9g6f4W9yagR-EfnQxw&usqp=CAU" alt="Taco">
+                <h3>Taco</h3>
+                <p>Crunchy tacos filled with seasoned meat and salsa.</p>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="food-item">
+                <img src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/c4e7f587-e9e1-4953-b032-f58f82e91f4d/Derivates/4b8b814f-8562-4ad0-8db8-9939cb103685.jpg" alt="Ramen">
+                <h3>Ramen</h3>
+                <p>Japanese noodle soup with savory broth and toppings.</p>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="food-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCNJCav4A9ge7jQwDOu1zH9fVmB5GDGfS7hg&usqp=CAU" alt="Cake">
+                <h3>Cake</h3>
+                <p>Decadent chocolate cake with creamy frosting.</p>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="food-item">
+                <img src="https://lh3.googleusercontent.com/j7aAH5W7uRaTGQ4TZUvY7CJjBJrAeT-3TbNDQR8YkBr4vqmDPjj4k_H3OHa_32tq3rHonOfvwyau0ybsgbhXT04NekxYSKJpB3u575Lr=w1200-rw" alt="Ice Cream">
+                <h3>Ice Cream</h3>
+                <p>Various flavors of delicious ice cream in a cone.</p>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="food-item">
+                <img src="https://www.licious.in/blog/wp-content/uploads/2023/01/Shutterstock_2047827035-750x500.jpg" alt="Briyani">
+                <h3>Briyani</h3>
+                <p>Various varities of briyani's of india.</p>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="food-item">
+                <img src="https://5.imimg.com/data5/XV/JL/MY-49967943/indian-mithais-premium-quality-assorted-500x500.jpg" alt="Sweets">
+                <h3>Sweets</h3>
+                <p>Wide varities of Sweets of india.</p>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="food-item">
+                <img src="https://thewoksoflife.com/wp-content/uploads/2016/07/grilled-tandoori-chicken-12.jpg" alt="Chicken">
+                <h3>Grill Chicken</h3>
+                <p>Special Spicy Grilled Chicken</p>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="food-item">
+                <img src="https://vismaifood.com/storage/app/uploads/public/db8/6b1/f51/thumb__700_0_0_0_auto.jpg" alt="Pulihora">
+                <h3>Pulihora</h3>
+                <p>Andhra Special pulihora</p>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="food-item">
+                <img src="https://www.spiceindiaonline.com/wp-content/uploads/2017/04/Meen-Varuval-Tilapia-Fish-Fry-2.jpg" alt="Fish Fry">
+                <h3>Fish Fry</h3>
+                <p>Famous south indian Fish fry</p>
+                <a href="#">Order Now</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
